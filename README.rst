@@ -35,4 +35,4 @@ No-No
 Any kind of localization or i18n is not cared for.
 
 
-.. _kivy:: http://www.kivy.org/
+.. _kivy: http://www.kivy.org/

@@ -1,0 +1,28 @@
+#:kivy 1.7.1
+
+
+<Header>:
+
+    BoxLayout:
+        orientation: 'vertical'
+
+        BoxLayout:
+			orientation: 'horizontal'
+			size_hint_y: None
+			height: '48dp'
+			padding: '5dp'
+
+			canvas:
+				Color:
+					rgb: .3, .3, .3
+				Rectangle:
+					pos: self.pos
+					size: self.size
+
+            Label:
+                text: 'TROI'
+
+            Button:
+                id: select_date
+                text: root.date
+                on_press: root.select_date()
